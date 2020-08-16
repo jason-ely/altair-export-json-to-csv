@@ -4,12 +4,10 @@
   "description": "Button to converts json to csv in Altair and allows the client to save it",
   "homepage": "https://github.com/jason-ely/altair-export-json-to-csv",
   "scripts": {
-    "build": "node _build.js"
+    "build": "node _build.js",
+    "test": "mocha 'test/**/*.js' --recursive --timeout 60000 --exit"
   },
   "main": "index.js",
-  "dependencies": {
-   
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jason-ely/altair-export-json-to-csv.git"
@@ -18,7 +16,7 @@
     "node",
     "javascript",
     "csv",
-	"Altair"
+    "Altair"
   ],
   "author": "Jason Ely",
   "license": "MIT"
