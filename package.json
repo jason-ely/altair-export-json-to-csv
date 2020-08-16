@@ -2,6 +2,7 @@
   "name": "altair-graphql-plugin-export-to-csv",
   "version": "0.0.1",
   "description": "Button to converts json to csv in Altair and allows the client to save it",
+  "homepage": "https://github.com/jason-ely/altair-export-json-to-csv",
   "scripts": {
     "build": "node _build.js"
   },
@@ -12,5 +13,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jason-ely/altair-export-json-to-csv.git"
-  }
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "csv",
+	"Altair"
+  ],
+  "author": "Jason Ely",
+  "license": "MIT"
 }
