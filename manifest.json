@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "name": "csv",
+  "version": "1.0.0",
+  "display_name": "Altair flatten JSON to CSV",
+  "description": "Plugin button that allows clients to convert json result sets to CSV",
+  "author_email": "jely.chrysallis@gmail.com",
+  "author": "Jason Ely",
+  "type": "action_button",
+  "action_button_opts": {
+    "class_name": "ActionButtonExportToCSV",
+    "location": "result_pane"
+  },
+  "scripts": [
+    "altair-build.js"
+  ]
+}
